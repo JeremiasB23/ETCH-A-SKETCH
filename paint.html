@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Paint</title>
+</head>
+<body>
+
+<div class="container">
+
+    
+    
+</div>
+
+
+
+<!--^STYLE-->    
+<style>
+
+div{
+    border: 1px solid black;
+    width: 16px;
+    height: 16px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: 256px;
+}
+
+.FlexChild{
+    display: flex;
+    flex-direction: row;
+    width: 256px;
+}
+
+.FlexChild:hover{
+    background-color: red;
+}
+</style>    
+    
+
+<!--^SCRIPT-->
+<script>
+
+function createSquare(){
+  for(let i = 0; i < 16; i++){
+    const container = document.querySelector(".container");
+    const grids = document.createElement('div');  
+    grids.className = "FlexChild";
+    container.appendChild(grids);
+
+
+
+    
+    for(let i = 0; i < 16; i++){
+        const grids2 = document.createElement('div');
+        grids.appendChild(grids2);
+    }
+
+
+    
+  }  
+    
+}
+
+createSquare();
+
+</script>
+
+
+</body>
+</html>

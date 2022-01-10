@@ -1,5 +1,6 @@
 
 function createSquare(){
+    
     for(let i = 0; i < 16; i++){
         const container = document.querySelector(".container");
         const grids = document.createElement('div');  
@@ -34,8 +35,6 @@ function changeColor(){
    const colorPicker = document.querySelector(".colorChose"); 
 
     colorPicker.addEventListener('input', function(event){
-       
-        const p = document.querySelectorAll(".FlexChildRow");
         chColor = event.target.value;
     });
 

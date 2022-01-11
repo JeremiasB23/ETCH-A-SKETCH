@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-div {
-  width: 32px;
-  height: 32px;
-}
-
 h1 {
   text-align: center;
   font-family: "Indie Flower", cursive;
@@ -41,14 +36,12 @@ input[type=color]::-webkit-color-swatch {
 }
 
 .styleCreator {
-  border: none;
   background-color: #ff8066;
   width: 100%;
   height: 70px;
 }
 
 .styleCreator2 {
-  border: none;
   background-color: #4b4453;
   width: 100%;
   height: 700px;

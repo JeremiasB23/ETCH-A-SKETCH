@@ -77,7 +77,7 @@ function clearSquares(){
          
 }
 
-function Rainbow(){
+function Rainbow(){//!ARREGLAR= UNA VEZ QUE YA APRETE EL BOTON NO PARA, ARREGLAR ESO
 
 const rainbow = document.querySelector('.rainbow');
 rainbow.addEventListener('click', function(){

@@ -55,11 +55,14 @@ function resizeGrid(){
 
 function clearSquares(){
     const cleaner = document.querySelector('.cleaner');
+    const container = document.querySelectorAll(".FlexChildRow");
+    
 
     cleaner.addEventListener('click', function(){
 
-        const container = document.querySelectorAll(".FlexChildRow");
-        container.style = "white";
+        for(input of container){
+            input.style.backgroundColor = "white";
+        }
     });
          
 }

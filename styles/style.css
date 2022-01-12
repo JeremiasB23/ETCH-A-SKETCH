@@ -27,6 +27,7 @@ input[type=color] {
   height: 150px;
   border-radius: 50%;
   margin-bottom: 80px;
+  margin-top: -40px;
 }
 
 input[type=color]::-webkit-color-swatch-wrapper {
@@ -58,7 +59,7 @@ input[type=color]::-webkit-color-swatch {
   flex-direction: column;
   justify-content: left;
   height: 600px;
-  width: 140px;
+  width: 180px;
   margin-top: 200px;
 }
 
